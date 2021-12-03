@@ -7,20 +7,26 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/sequelize": "^1.2.1",
+    "admin-bro": "^4.0.1",
+    "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "faker": "^5.5.3",
     "http": "0.0.1-security",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
     "mysql2": "^2.1.0",
     "sequelize": "^5.22.4",
     "serverless-http": "^2.3.2",
+    "tslib": "^2.3.1",
     "twig": "^1.15.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.14",
-    "sequelize-cli": "^6.2.0"
+    "sequelize-cli": "^6.3.0"
   }
 }

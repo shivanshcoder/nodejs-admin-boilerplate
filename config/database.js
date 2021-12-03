@@ -1,3 +1,4 @@
+require("../bin/kernel");
 module.exports = {
   development: {
     host: env("MYSQL_HOSTNAME", "localhost"),
@@ -33,4 +34,3 @@ module.exports = {
     }
   }
 };
-
